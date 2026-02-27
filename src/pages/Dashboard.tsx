@@ -132,7 +132,7 @@ const Dashboard = () => {
   };
 
   const tempInRange = data ? data.temperature >= 20 && data.temperature <= 30 : true;
-  const phInRange = data ? data.ph >= 6.5 && data.ph <= 8.5 : true;
+  const phInRange = data ? data.ph >= 7.5 && data.ph <= 8.5 : true;
   const alertLevel = data?.alert || "NORMAL";
   const isAlertGlow = alertLevel === "CRITICAL" ? "animate-glow-alert" : alertLevel === "WARNING" ? "animate-glow-warning" : "";
 
@@ -234,7 +234,7 @@ const Dashboard = () => {
                   </span>
                 </div>
                 <p className={`text-xs mt-2 ${phInRange ? "text-success" : "text-destructive"}`}>
-                  {phInRange ? "Within safe range (6.5–8.5)" : "Outside safe range!"}
+                  {phInRange ? "Within safe range (7.5–8.5)" : "Outside safe range!"}
                 </p>
               </div>
 
