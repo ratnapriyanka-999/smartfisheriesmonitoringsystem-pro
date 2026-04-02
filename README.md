@@ -19,7 +19,7 @@ This project is an IoT-based smart monitoring system designed to track water qua
 
 📷 Screenshots
 
-(Add your project screenshots here)
+
 
 🔗 GitHub Repository
 
